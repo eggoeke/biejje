@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-06-21T10:38:08-04:00
+
+====== Home ======
+Created Wednesday 21 June 2017
+
+Do percentage rather than 3 sigma;
+Trying to leave out points which don't contribute to the integral (GOAL for data reduction)
+
+put the points in descending order and see which sum index is the smallest of the total sum (use percentage and make it changable)
+

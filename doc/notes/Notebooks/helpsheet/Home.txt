@@ -1,0 +1,176 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-04-10T08:35:32-04:00
+
+
+{{./equation007.png?type=equation}} family of curves
+{{./equation009.png?type=equation}} orthoganol family of curves
+**SEPERATION OF VARIABLES**
+{{./equation052.png?type=equation}}
+{{./equation053.png?type=equation}}
+{{./equation054.png?type=equation}}
+ln N = -lambda t + c
+N = exp(-lambda t + c)
+N = exp(c)exp(-lambda t)
+N(t) = N_0 exp(-lambda t)
+**ORTHOGANOL CURVES**
+{{./equation015.png?type=equation}}
+{{./equation016.png?type=equation}}
+-x-x-x-x-x--x-x-x-x-x-x
+GENERAL SOLUTION FOR  {{./equation017.png?type=equation}}
+{{./equation031.png?type=equation}}
+{{./equation032.png?type=equation}}
+-x-x-x-x-x--x-x-x-x-x-x
+**THERMO EXACT DIFFERENTIAL**
+{{./equation056.png?type=equation}}
+{{./equation057.png?type=equation}}
+{{./equation060.png?type=equation}}
+{{./equation059.png?type=equation}}
+{{./equation061.png?type=equation}}
+{{./equation062.png?type=equation}}
+{{./equation063.png?type=equation}}
+{{./equation064.png?type=equation}}
+**SECOND ORDER HOMOGENOUS DIFFERENTIALS**
+{{./equation084.png?type=equation}}
+Operator
+{{./equation085.png?type=equation}} → {{./equation086.png?type=equation}}
+{{./equation087.png?type=equation}}
+{{./equation088.png?type=equation}}
+auxillary equation
+{{./equation089.png?type=equation}}
+{{./equation090.png?type=equation}}
+{{./equation091.png?type=equation}}
+{{./equation092.png?type=equation}}
+{{./equation093.png?type=equation}}→ {{./equation094.png?type=equation}}
+{{./equation095.png?type=equation}}
+{{./equation097.png?type=equation}}
+imaginary →  sinusoidal; under damping
+real → exponential decay; over damping
+0 → sqrt drops out and exponential decay; critical damped
+WHAT IF a=b
+{{./equation098.png?type=equation}}
+{{./equation099.png?type=equation}}
+{{./equation100.png?type=equation}}
+{{./equation101.png?type=equation}}
+{{./equation102.png?type=equation}}
+{{./equation103.png?type=equation}}
+{{./equation104.png?type=equation}}
+{{./equation105.png?type=equation}}
+{{./equation106.png?type=equation}}
+{{./equation107.png?type=equation}} "natural frequency"
+homogenous
+{{./equation111.png?type=equation}}
+{{./equation112.png?type=equation}}
+inhomogeneous
+{{./equation108.png?type=equation}}
+{{./equation109.png?type=equation}}
+Any solution goes away as x → infinity
+{{./equation110.png?type=equation}}
+z(x) solves homogeneous equation (=0)
+	complementary solution
+w(x) solves the inhomogeneous equation (=f(x))
+	particular solution
+q(x) = z(x) + w(x)
+	total solution
+---------GENERAL SOLUTION COMPLEMENTARY SOLUTION-----------------
+{{./equation084.png?type=equation}}
+{{./equation095.png?type=equation}}
+a,b={{./equation097.png?type=equation}}
+**No general solution for w(x) like there is for z(x) because it depends on what f(x) is**
+{{./equation113.png?type=equation}}
+{{./equation115.png?type=equation}}
+{{./equation116.png?type=equation}}
+Cases:
+1. {{./equation117.png?type=equation}}
+2. {{./equation119.png?type=equation}}
+3. {{./equation118.png?type=equation}}
+{{./equation120.png?type=equation}} //remember operators....//
+{{./equation121.png?type=equation}}
+{{./equation122.png?type=equation}}
+{{./equation123.png?type=equation}}
+CASE 1
+{{./equation124.png?type=equation}}
+{{./equation125.png?type=equation}}
+{{./equation126.png?type=equation}}
+{{./equation127.png?type=equation}}
+{{./equation128.png?type=equation}}
+{{./equation129.png?type=equation}}
+CASE 2
+{{./equation130.png?type=equation}}
+{{./equation131.png?type=equation}}
+{{./equation132.png?type=equation}}
+{{./equation133.png?type=equation}}
+{{./equation134.png?type=equation}}
+particular: {{./equation135.png?type=equation}}
+{{./equation137.png?type=equation}}
+CASE 3
+{{./equation136.png?type=equation}}
+{{./equation138.png?type=equation}}
+**PARTIAL DIFFY Qs**
+f(x,y,z,t)
+{{./equation142.png?type=equation}}
+**LAPLANCE EQUATION**
+{{./equation144.png?type=equation}}
+{{./equation145.png?type=equation}}
+{{./equation146.png?type=equation}}
+{{./equation147.png?type=equation}}
+**POISSON'S EQUATION**
+{{./equation139.png?type=equation}}
+**DIFFUSION EQUATOIN**
+{{./equation140.png?type=equation}}
+**WAVE EQUATION**
+{{./equation141.png?type=equation}}
+**SCHRODINGER'S EQUATION**
+{{./equation148.png?type=equation}}
+**SEPERATION OF VARIABLES**
+{{./equation149.png?type=equation}} → look for solutions that are made up of mini solutions that each depend on one of the variables
+{{./equation149.png?type=equation}}  = {{./equation150.png?type=equation}}
+**Boundaries are important**
+Let's start with LaPlance!
+{{./equation151.png?type=equation}} → because its a static situation
+{{./equation152.png?type=equation}}
+{{./equation153.png?type=equation}}
+{{./equation154.png?type=equation}}
+{{./equation155.png?type=equation}}
+{{./equation156.png?type=equation}}
+{{./equation157.png?type=equation}}
+{{./equation158.png?type=equation}}
+{{./equation160.png?type=equation}}
+**PLATE**
+T(x=0,y) = sin(pi*y/a)
+T(x=b,y) = sin(2*pi*y/a)
+T(x,y) = { e^(kx)}{sin(ky)}
+		{e^(-ky)}{cos(ky)}
+Can rule out cosine; we also know k has to be quantize in npi/a
+T(x,y) =  sum((A_ne^(k_nx) + B_ne^(-k_nx))sin(k_ny))
+T(x=0,y) = sin(pi*y/a)=sum((A_n+B_n)sin(npi/a))
+A_1 + B_1 =1
+A_n + B_n = 0
+T(x=b,y) = sin(2piy/a) = sum((A_ne^(k_nb) + B_n^(-k_nb))*sin(npiy/a))
+A_2e^(2pib/a) + B_2e^(-2pib/a) = 1
+A_1 + B_1 = 1
+A_2e^(2pib/a) + B_2e^(-2pib/a) = 1
+A_1e^(2pib/a) + B_1e^(-2pib/a) = 0
+A_2 + B_2 = 0
+Four equations four unknowns
+T(x,y) = 
+{{./equation162.png?type=equation}}
+**Wave Equation**
+{{./equation163.png?type=equation}}
+{{./equation164.png?type=equation}}
+{{./equation165.png?type=equation}}
+{{./equation166.png?type=equation}}
+f(x,t) =     {sin(kx)} {sin(ckt)}
+		{cos(kx)} {cos(ckt)}
+f(x=0,t) = 0 f(x=l, t) = 0
+k = n pi/l
+cos(kx) and sin(ckt) drop out
+f(x,t) = sum(A_nsin(npix/l)*cos(npit/l*c)
+propogating wave
+f(x, t=0) = {sin(8pi/l x) x < l/8}
+			0	x> l/8		
+f(x,t=0) = sum(A_n sin(npi/l x)
+A_n = 2/l int 0 to l f(x,t=0)sin(n pi/l x)dx
+A_n = 2/l int 0 to l/8 sin(8pix/l)sin(npix/l)sx = 1/l int 0 to l/8 -cos(pix/l (8+n)) + cos(pix/l(8-n)))dx
+
+

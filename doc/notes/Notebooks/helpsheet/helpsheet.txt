@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-05-14T21:25:24-04:00
+
+====== helpsheet ======
+
+==== Wave Equation ====
+(x,t) =     {sin(kx)} {sin(ckt)}
+		{cos(kx)} {cos(ckt)}

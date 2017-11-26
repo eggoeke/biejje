@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-06-09T12:58:03-04:00
+
+====== Binary Things ======
+Stellar evolution 1: Main Sequence
+"stars are very similar to stars of other masses"
+
+Ever-decreasing time scales as it moves through the elements of the sequence
+
+We don't really care how much mass stars pass between each other (small amount)
+
+
+===== Main Sequence (HR Diagram) =====
+{{./equation.png?type=equation}}
+{{./equation001.png?type=equation}}
+
+Opacity depends on kinds of atoms and density
+Basically like a power ideal gas law
+Differential equation
+{{./equation002.png?type=equation}}
+z~ composition
+p~ density
+T~ temperature
+
+Core is important because core is typicallly more dense than the outer shell
+Hydrogen is annoying to burn alone - once you begin to burn more elements you begin to catalyze the burning of the star
+A little contaminants can drastically change sequence (fucking differentials)
+Burn 10% of mass (Hydrogen → helium) 
+Stars of different mass an characters transfer their energy differently
+
+small stars - convective
+((look up later))
+electron capture supernova
+
+===== Roche Potential =====
+Pairs of stars
+you can compute grav energy with hamiltonian mechanics
+
+{{./equation003.png?type=equation}}
+
+{{./equation004.png?type=equation}} = centrifugal potential
+
+Gravitational equilibrium about the center of mass
+If star expands past center of mass then it is transferred to other star
+	orbit changes in response to mass transfer
+
+
+ands past center of mass then it is transferred to other star
+orbit changes in response to mass transfer
+

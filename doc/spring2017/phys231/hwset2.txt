@@ -1,0 +1,11 @@
+>> x = [1 2 4 6 8 9 10 12]
+>> y = [16 14 15 12 10 9 8 2]
+>> s1 = [2 2 2 2 2 2 2 2]
+>> s2 = [ 1 4 6 5 5 5 5 .2]
+
+No, all the isotopes of Silver which have a higher mass number than 108 and 109 are unstable with half lives 
+varying from seconds to days. Therefore, when silver absorbs a neutron its nuclei must become more unstable than before.
+
+From the table included in this homework set and my understanding of half life I believe the slope of ln(Counts) vs ln(Seconds) 
+graph I calculated is equal to t/half life. The calculate half life is 1.5 seconds, but the slope of the graph does not fit the 
+curve very well.
