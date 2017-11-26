@@ -1,0 +1,29 @@
+fixed filename is bad for mcmc
+
+standard map function
+don't use pool
+
+could also use fortran
+
+class FakePool:    def map(self,f,y):        print f, y        return f(y)my_pool = FakePool()Sent 
+
+sampler = emcee.EnsembleSampler(nwalkers, ndim, dp.makeLnLh,pool=my_pool)
+
+
+use log10(Z) instead of Z
+
+
+config file for fortran
+
+
+3D scatter plot of log10(Z), m1,m2
+
+
+start using log period as well
+
+change make binary file to four dimensions and array! 
+
+brush up on BSE readme
+
+
+meeting w richard!! 9:30 AM

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+import sys
+import numpy as np
+nbin = int(sys.argv[1])
+Z = float(sys.argv[2])
+def make_random_binary():
+	logPeriodInDays = 10*np.random.random()   # lazy : no inner cutoff based on star size.
+	m1 = 8*np.power((1-np.random.random()),1/(1-2.7)) # only above this mass
+	m2 = 8 + (m1-8) * np.random.random()
+	ecc = np.power(np.random.random(), 1/2.)
+	return m1,m2,np.power(10.,logPeriodInDays), ecc
+print nbin
+for i in np.arange(nbin):
+	m1,m2,p, ecc = make_random_binary()
+	print  m1, m2, p, ecc, Z, 200 

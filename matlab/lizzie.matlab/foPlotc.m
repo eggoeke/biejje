@@ -1,0 +1,1 @@
+function foPlotc(x,y,appx)% Written by Lizzie Ruprecht on March 20, 2017% Emphasis by Hank Corbett % This program plots the original function as well as the Fourier approximationplot(x,y,'k',x,appx,'b');xlabel('x');ylabel('y');title('f(x) and Fourier Approximation');legend('Function','Approximation');
